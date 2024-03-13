@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://img.freepik.com/fotos-gratis/figura-triangular-geometrica-fantastica-em-uma-luz-de-laser-neon-otima-para-fundos_181624-11068.jpg?w=826&t=st=1689558794~exp=1689559394~hmac=a3524a35b0bcc6501f977988d93410f4eb806fb0d976b5233b89f7d897282acd");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons {
+    margin: 35px 0;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5 ease-in-out;
+
+}
+
+button:hover {
+    opacity: .7;
+}
+
+#rock {
+    background-color: rgb(72, 13, 167);
+}
+
+#paper {
+    background-color: rgb(199, 15, 199);
+}
+
+#scissors {
+    background-color: rgb(42, 145, 11);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.your-score span {
+    color: blue;
+}
+
+.machine-score span {
+    color: red;
+
+}
